@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SauceDemo" time="80.429" tests="2" failures="0" errors="0">
+   <testsuite name="SauceDemo" tests="2" failures="0" errors="0" time="80.429" skipped="0" timestamp="2021-07-09 03:07:53" hostname="ASUS - LAPTOP-9CQH763D" id="Test Suites/SauceDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Katalon Studio\\SauceDemo_Amartha\\Reports\\20210709_030737\\SauceDemo\\20210709_030737"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Katalon Studio\\SauceDemo_Amartha\\Reports\\20210709_030737\\SauceDemo\\20210709_030737\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-9CQH763D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.124"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="b856a3fc72a3a2c0d6f9b69afaa99356"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceDemo_InvalidLogin" time="19.226" classname="Test Cases/SauceDemo_InvalidLogin" status="PASSED">
+         <system-out><![CDATA[2021-07-09 03:07:53 - [TEST_CASE][PASSED] - Test Cases/SauceDemo_InvalidLogin: Test Cases/SauceDemo_InvalidLogin
+
+2021-07-09 03:07:54 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login/LoginInvalid.feature"): Feature file: 'Include/features/Login/LoginInvalid.feature' was passed
+
+2021-07-09 03:07:54 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login/LoginInvalid.feature' and extract report to folder: 'C:\Users\ASUS\Katalon Studio\SauceDemo_Amartha\Reports\20210709_030737\SauceDemo\20210709_030737/cucumber_report/1625774874188'...
+
+2021-07-09 03:07:55 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO This test case for Invalid Login scenario: SCENARIO This test case for Invalid Login scenario
+
+2021-07-09 03:07:55 - [TEST_STEP][PASSED] - User navigates to open login page: User navigates to open login page
+
+2021-07-09 03:07:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-09 03:07:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-09 03:07:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-09 03:07:58 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2021-07-09 03:08:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:00 - [MESSAGE][PASSED] - User navigates to open login page
+
+2021-07-09 03:08:00 - [TEST_STEP][PASSED] - User enters qaqa and amartha Invalid: User enters qaqa and amartha Invalid
+
+2021-07-09 03:08:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:03 - [MESSAGE][PASSED] - Text 'qaqa' is set on object 'Object Repository/SD_LoginLogout/Login_input_username'
+
+2021-07-09 03:08:03 - [MESSAGE][PASSED] - Text 'amartha' is set on object 'Object Repository/SD_LoginLogout/Login_input_password'
+
+2021-07-09 03:08:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:05 - [MESSAGE][PASSED] - User enters qaqa and amartha Invalid
+
+2021-07-09 03:08:05 - [TEST_STEP][PASSED] - User click button login: User click button login
+
+2021-07-09 03:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SD_LoginLogout/Login_Button' is clicked on
+
+2021-07-09 03:08:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:08 - [MESSAGE][PASSED] - User click button login
+
+2021-07-09 03:08:08 - [TEST_STEP][PASSED] - Failed to login page saucedemo: Failed to login page saucedemo
+
+2021-07-09 03:08:08 - [MESSAGE][PASSED] - Object 'Object Repository/SD_LoginLogout/Login_Button' is clickable
+
+2021-07-09 03:08:09 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+2021-07-09 03:08:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 03:08:12 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-09 03:08:12 - [MESSAGE][PASSED] - Failed to login page saucedemo
+
+2021-07-09 03:08:12 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login/LoginInvalid.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceDemo_AllScenario_Cucumber" time="60.397" classname="Test Cases/SauceDemo_AllScenario_Cucumber" status="PASSED">
+         <system-out><![CDATA[2021-07-09 03:08:12 - [TEST_CASE][PASSED] - Test Cases/SauceDemo_AllScenario_Cucumber: Test Cases/SauceDemo_AllScenario_Cucumber
+
+2021-07-09 03:08:13 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login/LoginValid.feature"): Feature file: 'Include/features/Login/LoginValid.feature' was passed
+
+2021-07-09 03:08:13 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login/LoginValid.feature' and extract report to folder: 'C:\Users\ASUS\Katalon Studio\SauceDemo_Amartha\Reports\20210709_030737\SauceDemo\20210709_030737/cucumber_report/1625774893241'...
+
+2021-07-09 03:08:13 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO This test case for valid Login scenario: SCENARIO This test case for valid Login scenario
+
+2021-07-09 03:08:13 - [TEST_STEP][PASSED] - User navigates to open login page: User navigates to open login page
+
+2021-07-09 03:08:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-09 03:08:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-09 03:08:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-09 03:08:15 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2021-07-09 03:08:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:17 - [MESSAGE][PASSED] - User navigates to open login page
+
+2021-07-09 03:08:17 - [TEST_STEP][PASSED] - User enters standard_user and secret_sauce Valid: User enters standard_user and secret_sauce Valid
+
+2021-07-09 03:08:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:20 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SD_LoginLogout/Login_input_username'
+
+2021-07-09 03:08:21 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/SD_LoginLogout/Login_input_password'
+
+2021-07-09 03:08:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:23 - [MESSAGE][PASSED] - User enters standard_user and secret_sauce Valid
+
+2021-07-09 03:08:23 - [TEST_STEP][PASSED] - User click button login: User click button login
+
+2021-07-09 03:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/SD_LoginLogout/Login_Button' is clicked on
+
+2021-07-09 03:08:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:25 - [MESSAGE][PASSED] - User click button login
+
+2021-07-09 03:08:25 - [TEST_STEP][PASSED] - Success and go to dashboard page: Success and go to dashboard page
+
+2021-07-09 03:08:25 - [MESSAGE][PASSED] - Text 'Sauce Labs Backpack' is present on page 
+
+2021-07-09 03:08:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:27 - [MESSAGE][PASSED] - Success and go to dashboard page
+
+2021-07-09 03:08:28 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login/LoginValid.feature' was passed
+
+2021-07-09 03:08:28 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Cart/AddToCart_item1.feature"): Feature file: 'Include/features/Cart/AddToCart_item1.feature' was passed
+
+2021-07-09 03:08:28 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Cart/AddToCart_item1.feature' and extract report to folder: 'C:\Users\ASUS\Katalon Studio\SauceDemo_Amartha\Reports\20210709_030737\SauceDemo\20210709_030737/cucumber_report/1625774908002'...
+
+2021-07-09 03:08:28 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Add item bags to cart: SCENARIO Add item bags to cart
+
+2021-07-09 03:08:28 - [TEST_STEP][PASSED] - Im on the page product: Im on the page product
+
+2021-07-09 03:08:29 - [MESSAGE][PASSED] - Object 'Object Repository/SD_Cart/Cart_Product1' is clickable
+
+2021-07-09 03:08:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:31 - [MESSAGE][PASSED] - Im on the page product
+
+2021-07-09 03:08:31 - [TEST_STEP][PASSED] - I want to add Sauce Labs backpack to cart: I want to add Sauce Labs backpack to cart
+
+2021-07-09 03:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/SD_Cart/Cart_Product1' is clicked on
+
+2021-07-09 03:08:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:33 - [MESSAGE][PASSED] - I want to add Sauce Labs backpack to cart
+
+2021-07-09 03:08:33 - [TEST_STEP][PASSED] - I finish to add that item to cart: I finish to add that item to cart
+
+2021-07-09 03:08:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:35 - [MESSAGE][PASSED] - I finish to add that item to cart
+
+2021-07-09 03:08:35 - [TEST_STEP][PASSED] - I open the list cart: I open the list cart
+
+2021-07-09 03:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SD_Cart/Cart_CartLink' is clicked on
+
+2021-07-09 03:08:36 - [MESSAGE][PASSED] - Object 'Object Repository/SD_Checkout/Checkout_Button_Checkout' is clickable
+
+2021-07-09 03:08:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:38 - [MESSAGE][PASSED] - I open the list cart
+
+2021-07-09 03:08:38 - [MESSAGE][PASSED] - Feature file: 'Include/features/Cart/AddToCart_item1.feature' was passed
+
+2021-07-09 03:08:38 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Checkout/Checkouts.feature"): Feature file: 'Include/features/Checkout/Checkouts.feature' was passed
+
+2021-07-09 03:08:38 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Checkout/Checkouts.feature' and extract report to folder: 'C:\Users\ASUS\Katalon Studio\SauceDemo_Amartha\Reports\20210709_030737\SauceDemo\20210709_030737/cucumber_report/1625774918520'...
+
+2021-07-09 03:08:38 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Checkout steps: SCENARIO Checkout steps
+
+2021-07-09 03:08:38 - [TEST_STEP][PASSED] - Im on the cart list and i want to process it: Im on the cart list and i want to process it
+
+2021-07-09 03:08:39 - [MESSAGE][PASSED] - Object 'Object Repository/SD_Checkout/Checkout_Button_Checkout' is clickable
+
+2021-07-09 03:08:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:43 - [MESSAGE][PASSED] - Im on the cart list and i want to process it
+
+2021-07-09 03:08:43 - [TEST_STEP][PASSED] - I click button checkout: I click button checkout
+
+2021-07-09 03:08:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/SD_Checkout/Checkout_Button_Checkout' is clicked on
+
+2021-07-09 03:08:45 - [MESSAGE][PASSED] - I click button checkout
+
+2021-07-09 03:08:45 - [TEST_STEP][PASSED] - I input my First Name Ekki Permana: I input my First Name Ekki Permana
+
+2021-07-09 03:08:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:48 - [MESSAGE][PASSED] - Text 'Ekki Permana' is set on object 'Object Repository/SD_Checkout/Checkout_Input_FirstName'
+
+2021-07-09 03:08:48 - [MESSAGE][PASSED] - I input my First Name Ekki Permana
+
+2021-07-09 03:08:48 - [TEST_STEP][PASSED] - I input my Last Name QA Amartha: I input my Last Name QA Amartha
+
+2021-07-09 03:08:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:51 - [MESSAGE][PASSED] - Text 'QA Amartha' is set on object 'Object Repository/SD_Checkout/Checkout_Input_LastName'
+
+2021-07-09 03:08:51 - [MESSAGE][PASSED] - I input my Last Name QA Amartha
+
+2021-07-09 03:08:51 - [TEST_STEP][PASSED] - I input my Postal ZIP Code 5343232: I input my Postal ZIP Code 5343232
+
+2021-07-09 03:08:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:53 - [MESSAGE][PASSED] - Text '5343232' is set on object 'Object Repository/SD_Checkout/Checkout_Input_ZIPCode'
+
+2021-07-09 03:08:53 - [MESSAGE][PASSED] - I input my Postal ZIP Code 5343232
+
+2021-07-09 03:08:54 - [TEST_STEP][PASSED] - I click button continue: I click button continue
+
+2021-07-09 03:08:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/SD_Checkout/Checkout_Button_Continue' is clicked on
+
+2021-07-09 03:08:56 - [MESSAGE][PASSED] - I click button continue
+
+2021-07-09 03:08:56 - [TEST_STEP][PASSED] - I click button finish: I click button finish
+
+2021-07-09 03:08:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:09:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:09:00 - [MESSAGE][PASSED] - Object 'Object Repository/SD_Checkout/Checkout_Button_Finish' is clickable
+
+2021-07-09 03:09:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/SD_Checkout/Checkout_Button_Finish' is clicked on
+
+2021-07-09 03:09:03 - [MESSAGE][PASSED] - I click button finish
+
+2021-07-09 03:09:03 - [TEST_STEP][PASSED] - Finish to order: Finish to order
+
+2021-07-09 03:09:03 - [MESSAGE][PASSED] - Text 'THANK YOU FOR YOUR ORDER' is present on page 
+
+2021-07-09 03:09:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:09:05 - [MESSAGE][PASSED] - Finish to order
+
+2021-07-09 03:09:05 - [MESSAGE][PASSED] - Feature file: 'Include/features/Checkout/Checkouts.feature' was passed
+
+2021-07-09 03:09:05 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login/LogOut_Valid.feature"): Feature file: 'Include/features/Login/LogOut_Valid.feature' was passed
+
+2021-07-09 03:09:05 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login/LogOut_Valid.feature' and extract report to folder: 'C:\Users\ASUS\Katalon Studio\SauceDemo_Amartha\Reports\20210709_030737\SauceDemo\20210709_030737/cucumber_report/1625774945800'...
+
+2021-07-09 03:09:06 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO valid Logout from saucedemo: SCENARIO valid Logout from saucedemo
+
+2021-07-09 03:09:06 - [TEST_STEP][PASSED] - I want to click button burger: I want to click button burger
+
+2021-07-09 03:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SD_LoginLogout/Logout_Menu' is clicked on
+
+2021-07-09 03:09:06 - [MESSAGE][PASSED] - I want to click button burger
+
+2021-07-09 03:09:06 - [TEST_STEP][PASSED] - I click Logout: I click Logout
+
+2021-07-09 03:09:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SD_LoginLogout/Logout_Link' is clicked on
+
+2021-07-09 03:09:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-07-09 03:09:09 - [MESSAGE][PASSED] - I click Logout
+
+2021-07-09 03:09:09 - [TEST_STEP][PASSED] - Finish logout and direct to the page login: Finish logout and direct to the page login
+
+2021-07-09 03:09:09 - [MESSAGE][PASSED] - Object 'Object Repository/SD_LoginLogout/Login_Button' is clickable
+
+2021-07-09 03:09:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 03:09:13 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-09 03:09:13 - [MESSAGE][PASSED] - Finish logout and direct to the page login
+
+2021-07-09 03:09:13 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login/LogOut_Valid.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-09 03:07:53 - [TEST_SUITE][PASSED] - SauceDemo: Test Cases/SauceDemo_AllScenario_Cucumber]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

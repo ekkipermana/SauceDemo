@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.816808">
+<testcase classname="Checkouts" name="Checkout steps" time="26.816808">
+<system-out><![CDATA[Given Im on the cart list and i want to process it..........................passed
+When I click button checkout................................................passed
+And I input my First Name Ekki Permana......................................passed
+And I input my Last Name QA Amartha.........................................passed
+And I input my Postal ZIP Code 5343232......................................passed
+And I click button continue.................................................passed
+And I click button finish...................................................passed
+Then Finish to order........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

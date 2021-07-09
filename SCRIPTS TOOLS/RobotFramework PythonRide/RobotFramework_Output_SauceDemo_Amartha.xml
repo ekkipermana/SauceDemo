@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20210709 13:29:01.465" schemaversion="2" generator="Robot 4.0.3 (Python 2.7.18 on win32)">
+<suite source="C:\Python27\Scripts\SauceDemo_amartha.robot" id="s1" name="SauceDemo amartha">
+<test id="s1-t1" name="TC_OpenTheWebsites">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>https://www.saucedemo.com/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210709 13:29:01.773" level="INFO">Opening browser 'Chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" endtime="20210709 13:29:04.430" starttime="20210709 13:29:01.772"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:06.442" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:06.442" starttime="20210709 13:29:04.432"/>
+</kw>
+<doc>This Test case to navigate user to URL https://www.saucedemo.com/</doc>
+<status status="PASS" endtime="20210709 13:29:06.443" starttime="20210709 13:29:01.771"/>
+</test>
+<test id="s1-t2" name="TC_Login_Invalid">
+<kw name="Element Should Be Visible" library="Selenium2Library">
+<arg>login-button</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20210709 13:29:06.471" level="INFO">Element 'login-button' is displayed.</msg>
+<status status="PASS" endtime="20210709 13:29:06.471" starttime="20210709 13:29:06.445"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:08.484" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:08.484" starttime="20210709 13:29:06.472"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>${txtUsername}</arg>
+<arg>hehehehe</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:08.485" level="INFO">Typing text 'hehehehe' into text field 'id=user-name'.</msg>
+<status status="PASS" endtime="20210709 13:29:08.581" starttime="20210709 13:29:08.485"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:10.585" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:10.585" starttime="20210709 13:29:08.582"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>${txtPassword}</arg>
+<arg>heheheheehe</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:10.586" level="INFO">Typing text 'heheheheehe' into text field 'id=password'.</msg>
+<status status="PASS" endtime="20210709 13:29:10.677" starttime="20210709 13:29:10.586"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:12.685" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:12.686" starttime="20210709 13:29:10.677"/>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<arg>login-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:12.688" level="INFO">Clicking button 'login-button'.</msg>
+<status status="PASS" endtime="20210709 13:29:12.762" starttime="20210709 13:29:12.687"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:14.767" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:14.768" starttime="20210709 13:29:12.762"/>
+</kw>
+<kw name="Clear Element Text" library="Selenium2Library">
+<arg>${txtUsername}</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" endtime="20210709 13:29:14.796" starttime="20210709 13:29:14.770"/>
+</kw>
+<kw name="Clear Element Text" library="Selenium2Library">
+<arg>${txtPassword}</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" endtime="20210709 13:29:14.820" starttime="20210709 13:29:14.797"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:16.834" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:16.835" starttime="20210709 13:29:14.820"/>
+</kw>
+<doc>This Test test login with invalid username and invalid password</doc>
+<status status="PASS" endtime="20210709 13:29:16.836" starttime="20210709 13:29:06.444"/>
+</test>
+<test id="s1-t3" name="TC_Login_Valid">
+<kw name="Element Should Be Visible" library="Selenium2Library">
+<arg>login-button</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20210709 13:29:16.860" level="INFO">Element 'login-button' is displayed.</msg>
+<status status="PASS" endtime="20210709 13:29:16.860" starttime="20210709 13:29:16.839"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:18.864" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:18.865" starttime="20210709 13:29:16.861"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>${txtUsername}</arg>
+<arg>standard_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:18.868" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
+<status status="PASS" endtime="20210709 13:29:18.955" starttime="20210709 13:29:18.867"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:20.958" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:20.958" starttime="20210709 13:29:18.955"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>${txtPassword}</arg>
+<arg>secret_sauce</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:20.961" level="INFO">Typing text 'secret_sauce' into text field 'id=password'.</msg>
+<status status="PASS" endtime="20210709 13:29:21.062" starttime="20210709 13:29:20.959"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:23.067" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:23.068" starttime="20210709 13:29:21.063"/>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<arg>login-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:23.073" level="INFO">Clicking button 'login-button'.</msg>
+<status status="PASS" endtime="20210709 13:29:23.182" starttime="20210709 13:29:23.071"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:26.192" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:26.193" starttime="20210709 13:29:23.182"/>
+</kw>
+<doc>This Test test login with valid username and valid password</doc>
+<status status="PASS" endtime="20210709 13:29:26.194" starttime="20210709 13:29:16.838"/>
+</test>
+<test id="s1-t4" name="TC_Cart_AddToCart">
+<kw name="Click Button" library="Selenium2Library">
+<arg>add-to-cart-sauce-labs-backpack</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:26.198" level="INFO">Clicking button 'add-to-cart-sauce-labs-backpack'.</msg>
+<status status="PASS" endtime="20210709 13:29:26.253" starttime="20210709 13:29:26.197"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:28.263" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:28.263" starttime="20210709 13:29:26.253"/>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<arg>add-to-cart-sauce-labs-bike-light</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:28.264" level="INFO">Clicking button 'add-to-cart-sauce-labs-bike-light'.</msg>
+<status status="PASS" endtime="20210709 13:29:28.317" starttime="20210709 13:29:28.264"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:30.328" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:30.329" starttime="20210709 13:29:28.317"/>
+</kw>
+<kw name="Element Should Be Visible" library="Selenium2Library">
+<arg>shopping_cart_container</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20210709 13:29:30.368" level="INFO">Element 'shopping_cart_container' is displayed.</msg>
+<status status="PASS" endtime="20210709 13:29:30.368" starttime="20210709 13:29:30.330"/>
+</kw>
+<doc>This Test case for add to cart 1 item and 2 items</doc>
+<status status="PASS" endtime="20210709 13:29:30.369" starttime="20210709 13:29:26.196"/>
+</test>
+<test id="s1-t5" name="TC_Cart_List">
+<kw name="Click Element" library="Selenium2Library">
+<arg>shopping_cart_container</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:30.371" level="INFO">Clicking element 'shopping_cart_container'.</msg>
+<status status="PASS" endtime="20210709 13:29:30.431" starttime="20210709 13:29:30.370"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:32.447" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:32.448" starttime="20210709 13:29:30.432"/>
+</kw>
+<kw name="Element Should Be Visible" library="Selenium2Library">
+<arg>checkout</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20210709 13:29:32.468" level="INFO">Element 'checkout' is displayed.</msg>
+<status status="PASS" endtime="20210709 13:29:32.468" starttime="20210709 13:29:32.448"/>
+</kw>
+<doc>This Test case for see cart list</doc>
+<status status="PASS" endtime="20210709 13:29:32.468" starttime="20210709 13:29:30.369"/>
+</test>
+<test id="s1-t6" name="TC_CheckOut">
+<kw name="Click Button" library="Selenium2Library">
+<arg>checkout</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:32.470" level="INFO">Clicking button 'checkout'.</msg>
+<status status="PASS" endtime="20210709 13:29:32.530" starttime="20210709 13:29:32.470"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:34.543" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:34.543" starttime="20210709 13:29:32.531"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>first-name</arg>
+<arg>Ekki Permana</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:34.545" level="INFO">Typing text 'Ekki Permana' into text field 'first-name'.</msg>
+<status status="PASS" endtime="20210709 13:29:34.668" starttime="20210709 13:29:34.544"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:36.677" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:36.678" starttime="20210709 13:29:34.668"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>last-name</arg>
+<arg>to be QA Amartha</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:36.683" level="INFO">Typing text 'to be QA Amartha' into text field 'last-name'.</msg>
+<status status="PASS" endtime="20210709 13:29:36.822" starttime="20210709 13:29:36.680"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:38.830" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:38.830" starttime="20210709 13:29:36.823"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>postal-code</arg>
+<arg>15270</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:38.831" level="INFO">Typing text '15270' into text field 'postal-code'.</msg>
+<status status="PASS" endtime="20210709 13:29:38.915" starttime="20210709 13:29:38.831"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:40.921" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:40.922" starttime="20210709 13:29:38.915"/>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<arg>continue</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:40.923" level="INFO">Clicking button 'continue'.</msg>
+<status status="PASS" endtime="20210709 13:29:40.997" starttime="20210709 13:29:40.922"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:43.010" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:43.010" starttime="20210709 13:29:40.997"/>
+</kw>
+<kw name="Execute Javascript" library="Selenium2Library">
+<arg>window.scrollTo(0,9999999)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20210709 13:29:43.012" level="INFO">Executing JavaScript:
+window.scrollTo(0,9999999)
+Without any arguments.</msg>
+<status status="PASS" endtime="20210709 13:29:43.018" starttime="20210709 13:29:43.010"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:45.034" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:45.035" starttime="20210709 13:29:43.019"/>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<arg>finish</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:45.036" level="INFO">Clicking button 'finish'.</msg>
+<status status="PASS" endtime="20210709 13:29:45.097" starttime="20210709 13:29:45.035"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:47.111" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:47.111" starttime="20210709 13:29:45.098"/>
+</kw>
+<kw name="Element Should Be Visible" library="Selenium2Library">
+<arg>back-to-products</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20210709 13:29:47.139" level="INFO">Element 'back-to-products' is displayed.</msg>
+<status status="PASS" endtime="20210709 13:29:47.139" starttime="20210709 13:29:47.112"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:49.143" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:49.145" starttime="20210709 13:29:47.140"/>
+</kw>
+<doc>This Test case for checkout proses</doc>
+<status status="PASS" endtime="20210709 13:29:49.146" starttime="20210709 13:29:32.469"/>
+</test>
+<test id="s1-t7" name="TC_LogOut">
+<kw name="Click Element" library="Selenium2Library">
+<arg>react-burger-menu-btn</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:49.148" level="INFO">Clicking element 'react-burger-menu-btn'.</msg>
+<status status="PASS" endtime="20210709 13:29:49.202" starttime="20210709 13:29:49.147"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:51.211" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:51.212" starttime="20210709 13:29:49.203"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>logout_sidebar_link</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210709 13:29:51.213" level="INFO">Clicking element 'logout_sidebar_link'.</msg>
+<status status="PASS" endtime="20210709 13:29:51.261" starttime="20210709 13:29:51.213"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210709 13:29:55.273" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" endtime="20210709 13:29:55.274" starttime="20210709 13:29:51.262"/>
+</kw>
+<kw name="Element Should Be Visible" library="Selenium2Library">
+<arg>login-button</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20210709 13:29:55.292" level="INFO">Element 'login-button' is displayed.</msg>
+<status status="PASS" endtime="20210709 13:29:55.292" starttime="20210709 13:29:55.274"/>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20210709 13:29:57.488" starttime="20210709 13:29:55.292"/>
+</kw>
+<doc>This test case for LogOut</doc>
+<status status="PASS" endtime="20210709 13:29:57.490" starttime="20210709 13:29:49.147"/>
+</test>
+<status status="PASS" endtime="20210709 13:29:57.495" starttime="20210709 13:29:01.493"/>
+</suite>
+<statistics>
+<total>
+<stat fail="0" skip="0" pass="7">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" skip="0" id="s1" name="SauceDemo amartha" pass="7">SauceDemo amartha</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

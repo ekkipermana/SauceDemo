@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.997555">
+<testcase classname="Logout" name="valid Logout from saucedemo" time="6.997555">
+<system-out><![CDATA[Given I want to click button burger.........................................passed
+When I click Logout.........................................................passed
+Then Finish logout and direct to the page login.............................passed
+]]></system-out>
+</testcase>
+</testsuite>

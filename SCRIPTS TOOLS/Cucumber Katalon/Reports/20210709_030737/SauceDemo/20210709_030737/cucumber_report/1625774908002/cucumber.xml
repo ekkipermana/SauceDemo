@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.677332">
+<testcase classname="Added item to cart" name="Add item bags to cart" time="9.677332">
+<system-out><![CDATA[Given Im on the page product................................................passed
+When I want to add Sauce Labs backpack to cart..............................passed
+And I finish to add that item to cart.......................................passed
+Then I open the list cart...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

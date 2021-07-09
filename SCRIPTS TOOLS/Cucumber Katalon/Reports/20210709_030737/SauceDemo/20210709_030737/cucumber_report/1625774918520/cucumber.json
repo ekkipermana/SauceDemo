@@ -1,0 +1,157 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 37,
+        "name": "Checkout steps",
+        "description": "",
+        "id": "checkouts;checkout-steps;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4396334000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Im on the cart list and i want to process it",
+            "match": {
+              "location": "CheckoutSteps.Im_on_the_cart_list_and_i_want_to_process_it()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2389461500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click button checkout",
+            "match": {
+              "location": "CheckoutSteps.I_click_button_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2756208600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I input my First Name Ekki Permana",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ekki Permana",
+                  "offset": 22
+                }
+              ],
+              "location": "CheckoutSteps.I_input_my_First_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2738679400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I input my Last Name QA Amartha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA Amartha",
+                  "offset": 21
+                }
+              ],
+              "location": "CheckoutSteps.I_input_my_Last_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2751348000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I input my Postal ZIP Code 5343232",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5343232",
+                  "offset": 27
+                }
+              ],
+              "location": "CheckoutSteps.I_input_my_Postal_ZIP_Code(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2439698100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click button continue",
+            "match": {
+              "location": "CheckoutSteps.I_click_butto_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6807450000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click button finish",
+            "match": {
+              "location": "CheckoutSteps.I_click_button_finish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2522903100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Finish to order",
+            "match": {
+              "location": "CheckoutSteps.Finish_to_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          },
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Checkouts",
+    "description": "  I want to checkout my item on cart",
+    "id": "checkouts",
+    "keyword": "Feature",
+    "uri": "C:/Users/ASUS/Katalon Studio/SauceDemo_Amartha/Include/features/Checkout/Checkouts.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SauceDemo_InvalidLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a37e0530-6824-43a5-b116-c9e42d556d22</testCaseGuid>
+</TestCaseEntity>

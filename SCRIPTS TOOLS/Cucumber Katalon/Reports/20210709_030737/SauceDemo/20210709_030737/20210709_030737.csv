@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SauceDemo,Chrome 91.0.4472.124,,,2021-07-09 03:07:53,2021-07-09 03:09:13,1m - 19.988s,PASSED
+,,,,,,,
+Test Cases/SauceDemo_InvalidLogin,Chrome 91.0.4472.124,,,2021-07-09 03:07:53,2021-07-09 03:08:12,19.226s,PASSED
+"runFeatureFile(""Include/features/Login/LoginInvalid.feature"")",Chrome 91.0.4472.124,,,2021-07-09 03:07:54,2021-07-09 03:08:12,18.728s,PASSED
+,,,,,,,
+Test Cases/SauceDemo_AllScenario_Cucumber,Chrome 91.0.4472.124,,,2021-07-09 03:08:12,2021-07-09 03:09:13,1m - 0.397s,PASSED
+"runFeatureFile(""Include/features/Login/LoginValid.feature"")",Chrome 91.0.4472.124,,,2021-07-09 03:08:13,2021-07-09 03:08:28,14.761s,PASSED
+"runFeatureFile(""Include/features/Cart/AddToCart_item1.feature"")",Chrome 91.0.4472.124,,,2021-07-09 03:08:28,2021-07-09 03:08:38,10.518s,PASSED
+"runFeatureFile(""Include/features/Checkout/Checkouts.feature"")",Chrome 91.0.4472.124,,,2021-07-09 03:08:38,2021-07-09 03:09:05,27.280s,PASSED
+"runFeatureFile(""Include/features/Login/LogOut_Valid.feature"")",Chrome 91.0.4472.124,,,2021-07-09 03:09:05,2021-07-09 03:09:13,7.458s,PASSED

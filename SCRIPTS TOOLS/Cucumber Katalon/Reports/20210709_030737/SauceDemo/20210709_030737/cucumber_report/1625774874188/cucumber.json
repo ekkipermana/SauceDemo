@@ -1,0 +1,86 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "line": 30,
+        "name": "This test case for Invalid Login scenario",
+        "description": "",
+        "id": "login-feature-conditions;this-test-case-for-invalid-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4957419600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User navigates to open login page",
+            "match": {
+              "location": "LoginSteps.User_navigates_to_open_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5554420200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters qaqa and amartha Invalid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaqa",
+                  "offset": 12
+                },
+                {
+                  "val": "amartha",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.User_enters_username_and_password_Invalid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2461278900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click button login",
+            "match": {
+              "location": "LoginSteps.User_click_button_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4411965400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Failed to login page saucedemo",
+            "match": {
+              "location": "LoginSteps.Failed_to_login_page_saucedemo()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature conditions",
+    "description": "",
+    "id": "login-feature-conditions",
+    "keyword": "Feature",
+    "uri": "C:/Users/ASUS/Katalon Studio/SauceDemo_Amartha/Include/features/Login/LoginInvalid.feature",
+    "tags": []
+  }
+]

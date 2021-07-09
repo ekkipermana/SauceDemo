@@ -1,0 +1,106 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "be91459b-7ba3-4549-b181-2a28dabaa9de",
+        "line": 32,
+        "name": "This test case for valid Login scenario",
+        "description": "",
+        "id": "login-feature-conditions;this-test-case-for-valid-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3962696400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User navigates to open login page",
+            "match": {
+              "location": "LoginSteps.User_navigates_to_open_login_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "01ac9a57-0aae-41be-9a0a-92239a600749"
+          },
+          {
+            "result": {
+              "duration": 5553190800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters standard_user and secret_sauce Valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 12
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginSteps.User_enters_username_and_password_Valid(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "572b9642-b1a0-40e4-bd22-7f2a5dfd8c27"
+          },
+          {
+            "result": {
+              "duration": 2453259800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click button login",
+            "match": {
+              "location": "LoginSteps.User_click_button_login()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c9729099-fcce-4a39-a728-f84de09facb9"
+          },
+          {
+            "result": {
+              "duration": 2337971000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Success and go to dashboard page",
+            "match": {
+              "location": "LoginSteps.Success_and_go_to_dashboard_page()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "4b9bc922-4e38-4707-a303-b8786dafd3e5"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature conditions",
+    "description": "",
+    "id": "login-feature-conditions",
+    "keyword": "Feature",
+    "uri": "C:/Users/ASUS/Katalon Studio/SauceDemo_Amartha/Include/features/Login/LoginValid.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.585698">
+<testcase classname="Login feature conditions" name="This test case for Invalid Login scenario" time="17.585698">
+<system-out><![CDATA[Given User navigates to open login page.....................................passed
+When User enters qaqa and amartha Invalid...................................passed
+And User click button login.................................................passed
+Then Failed to login page saucedemo.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

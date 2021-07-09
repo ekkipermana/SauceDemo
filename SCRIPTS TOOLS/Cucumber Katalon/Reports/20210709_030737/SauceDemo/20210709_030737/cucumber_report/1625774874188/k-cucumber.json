@@ -1,0 +1,91 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "d28a4376-1037-4415-9347-5191bc615e4c",
+        "line": 30,
+        "name": "This test case for Invalid Login scenario",
+        "description": "",
+        "id": "login-feature-conditions;this-test-case-for-invalid-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4957419600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User navigates to open login page",
+            "match": {
+              "location": "LoginSteps.User_navigates_to_open_login_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "df1c8dbc-95aa-4954-8bb6-ba31a9b93870"
+          },
+          {
+            "result": {
+              "duration": 5554420200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters qaqa and amartha Invalid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaqa",
+                  "offset": 12
+                },
+                {
+                  "val": "amartha",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.User_enters_username_and_password_Invalid(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "7d390f92-3365-48d3-9c79-a05de994a9c1"
+          },
+          {
+            "result": {
+              "duration": 2461278900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click button login",
+            "match": {
+              "location": "LoginSteps.User_click_button_login()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "09c129a1-92dd-4ecd-8faa-9daf2660a86c"
+          },
+          {
+            "result": {
+              "duration": 4411965400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Failed to login page saucedemo",
+            "match": {
+              "location": "LoginSteps.Failed_to_login_page_saucedemo()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9305fffb-8f92-41db-8e1b-1b4c15cd075c"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature conditions",
+    "description": "",
+    "id": "login-feature-conditions",
+    "keyword": "Feature",
+    "uri": "C:/Users/ASUS/Katalon Studio/SauceDemo_Amartha/Include/features/Login/LoginInvalid.feature",
+    "tags": []
+  }
+]
